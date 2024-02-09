@@ -12,7 +12,7 @@
 
 	<groupId>com.daverj</groupId>
 	<artifactId>account</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-a</version>
 	<name>astfx-account-service</name>
 	<description>Astroflix media's service</description>
 
