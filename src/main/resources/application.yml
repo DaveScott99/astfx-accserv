@@ -11,14 +11,9 @@ spring:
   jmx:
     enable: false
   datasource:
-    url: jdbc:mysql://192.168.1.150:3306/PROTO_ACCOUNT?allowPublicKeyRetrieval=true&sslMode=DISABLED
-    username: dba-root
-    password: nUKXQ3C35F2Kcq4_
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: admin
-    password: 123456
+    url: ${DB_URL:jdbc:mysql://localhost:3306/astfx_account_db?allowPublicKeyRetrieval=true&sslMode=DISABLED}
+    username: ${DB_USER:admin}
+    password: ${DB_PWD:admin}
 
 server:
   port: 8762
