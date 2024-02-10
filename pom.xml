@@ -12,7 +12,7 @@
 
 	<groupId>com.daverj</groupId>
 	<artifactId>account</artifactId>
-	<version>1.1-a</version>
+	<version>1.1.5</version>
 	<name>astfx-account-service</name>
 	<description>Astroflix media's service</description>
 
@@ -89,11 +89,6 @@
 			<artifactId>spring-rabbit</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
-			<version>3.1.0</version>
-		</dependency>
 	</dependencies>
 
 	<build>
