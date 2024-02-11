@@ -32,3 +32,6 @@ keycloak:
   realm: ${REALM:astroflix-realm}
   username: ${KEYCLOAK_ADMIN_USERNAME:astroflix_admin}
   password: ${KEYCLOAK_ADMIN_PASSWORD:astroflix@admin}
+
+cors:
+  origins: ${CORS_ORIGINS:http://localhost:3000}

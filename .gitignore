@@ -10,6 +10,7 @@ target/
 /target/maven-status/
 /target/surefire-reports/
 /target/test-classes/
+/target/
 
 ### STS ###
 .apt_generated
